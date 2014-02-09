@@ -1,0 +1,86 @@
+$header-font:
+$content-font: 
+$emphasis-font:
+
+html {
+    font: 100%/1.5 $content-font;
+}
+
+body {
+    line-height: 1.5;
+}
+
+h1 {
+	// 2 * 16 = 32
+    font-size: 2em; 
+}
+
+h2 {
+	// 1.5 * 16 = 24
+    font-size: 1.5em; 
+}
+
+h3 {
+	// 1.17 * 16 = 18.72
+    font-size: 1.17em; 
+}
+
+h4 {
+	// 1 * 16 = 16
+    font-size: 1em; 
+}
+
+h5 {
+	// 0.83 * 16 = 13.28
+    font-size: 0.83em; 
+}
+
+h6 {
+	// 0.75 * 16 = 12
+    font-size: 0.75em; 
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+a,
+a:visited {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: $active-color;
+}
+
+a:focus {
+    border: 1px dotted $focus-color;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+code,
+pre {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+blockquote:before {
+    content: "\201C";
+    display: inline-block;
+    padding-right: .4em;
+}
